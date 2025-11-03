@@ -1,0 +1,169 @@
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #2e2e2e;
+    background-color: #f5fff5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #101111, #6bd182);
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: rgb(22, 43, 17);
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+                url('images/360_F_596533582_UgVp2PyEDGWBx71tKyFm9jvYRnSvVerZ.jpg') center/cover no-repeat;
+    height: 150vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 93vh;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.8em;
+    color: #265b3b;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+    color: #342323;
+}
+
+.btn {
+    background-color: #2b7744;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #176336;
+}
+
+/* Upload Section */
+.upload-section {
+    text-align: center;
+    word-spacing: 2px;
+    padding: 60px 20px;
+    background-color: white;
+    border-top: 2px solid #e0f3e0;
+}
+
+.upload-section h2 {
+    color: #206a3e;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+.upload-section p{
+    font-size: 1em;
+}
+
+.upload-box {
+    background-color: #e9f6eb;
+    border: 2px dashed #a3d8a1;
+    padding: 30px;
+    margin: 30px auto;
+    width: 50%;
+    max-width: 500px;
+    border-radius: 15px;
+    word-spacing: 2px;
+}
+.upload-box button{
+    font-size: 15px;
+}
+.upload-box input{
+    font-size: 14px;
+}
+
+input[type="file"] {
+    margin-bottom: 17px;
+}
+
+/* Result */
+.result {
+    margin-top: 20px;
+}
+
+.placeholder {
+    color: gray;
+    font-style: italic;
+}
+.result h3{
+    font-size: 25px;
+    color: #1e3320;
+}
+
+
+/* About Section */
+.about-section {
+    background-color: #e2f3e3;
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #2b5b3e;
+    margin-bottom: 1px;
+}
+
+.about-section p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #112d1c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    bottom: 0%;
+}
